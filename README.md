@@ -16,8 +16,8 @@ The following ROS2 versions have been tested and are supported by this package.
 <!-- Tick: ✔️, Cross: ✖️ -->
 | ROS2 Version | Ubuntu Version | Motion Control |
 | :---: | :---: | :---: |
-| [Iron](https://docs.ros.org/en/iron/Installation.html) | [22.04](https://cdimage.ubuntu.com/releases/jammy/release/) | ✖️ |
-| [Humble](https://docs.ros.org/en/humble/Installation.html) | [22.04](https://cdimage.ubuntu.com/releases/jammy/release/) | ✖️ |
+| [Iron](https://docs.ros.org/en/iron/Installation.html) | [22.04](https://cdimage.ubuntu.com/releases/jammy/release/) | ✔️ |
+| [Humble](https://docs.ros.org/en/humble/Installation.html) | [22.04](https://cdimage.ubuntu.com/releases/jammy/release/) | ✔️ |
 | [Galactic](https://docs.ros.org/en/galactic/Installation.html) | [20.04](https://cdimage.ubuntu.com/releases/focal/release/) | ✖️ |
 | [Foxy](https://docs.ros.org/en/foxy/Installation.html) | [20.04](https://cdimage.ubuntu.com/releases/focal/release/) | ✖️ |
 
@@ -41,7 +41,7 @@ Setup the robot and connect to if using the [Go1 Robot Setup Guide](docs/setup-g
 3. Install ROS2 dependencies.
     ``` bash
     cd ~/ros2_go1_motion_ws
-    rosdep install --from-paths src --ignore-src --rosdistro <ros-distro>
+    rosdep install --from-paths src --ignore-src --rosdistro <ros-distro> -y
     ```
 4. Build the workspace.
     ``` bash
