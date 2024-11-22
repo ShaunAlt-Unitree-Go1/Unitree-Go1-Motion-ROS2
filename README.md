@@ -16,8 +16,8 @@ The following ROS2 versions have been tested and are supported by this package.
 <!-- Tick: ✔️, Cross: ✖️ -->
 | ROS2 Version | Ubuntu Version | Motion Control |
 | :---: | :---: | :---: |
-| [Iron](https://docs.ros.org/en/iron/Installation.html) | [22.04](https://cdimage.ubuntu.com/releases/jammy/release/) | ✔️ |
-| [Humble](https://docs.ros.org/en/humble/Installation.html) | [22.04](https://cdimage.ubuntu.com/releases/jammy/release/) | ✔️ |
+| [Iron](https://docs.ros.org/en/iron/Installation.html) | [22.04](https://cdimage.ubuntu.com/releases/jammy/release/) | ✖️ |
+| [Humble](https://docs.ros.org/en/humble/Installation.html) | [22.04](https://cdimage.ubuntu.com/releases/jammy/release/) | ✖️ |
 | [Galactic](https://docs.ros.org/en/galactic/Installation.html) | [20.04](https://cdimage.ubuntu.com/releases/focal/release/) | ✖️ |
 | [Foxy](https://docs.ros.org/en/foxy/Installation.html) | [20.04](https://cdimage.ubuntu.com/releases/focal/release/) | ✖️ |
 
@@ -36,7 +36,7 @@ Setup the robot and connect to if using the [Go1 Robot Setup Guide](docs/setup-g
     cd ~/ros2_go1_motion_ws/src
 2. Clone this GitHub repository.
     ``` bash
-    git clone --recurse-submodules https://github.com/ShaunAlt-Unitree-Go1/Unitree-Go1-Motion-ROS2.git
+    git clone --recurse-submodules -b foxy https://github.com/ShaunAlt-Unitree-Go1/Unitree-Go1-Motion-ROS2.git
     ```
 3. Install ROS2 dependencies.
     ``` bash
