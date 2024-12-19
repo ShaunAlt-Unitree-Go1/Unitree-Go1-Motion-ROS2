@@ -1,4 +1,4 @@
 [submodule "submodules/snt-arg/unitree_ros"]
 	path = submodules/snt-arg/unitree_ros
 	url = https://github.com/snt-arg/unitree_ros.git
-	branch = foxy
+	branch = main
